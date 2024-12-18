@@ -38,6 +38,17 @@ const HeaderCenter = ({ toggle, navBar }) => {
           </li>
           <li>
             <Link
+              to="/WhoweAre"
+              className={`${
+                navBar ? "text-main" : "text-white"
+              } capitalize hover:text-black`}
+            >
+              We are
+            </Link>
+          </li>
+
+          <li>
+            <Link
               to="/our-story"
               className={`${
                 navBar ? "text-main" : "text-white"
@@ -101,6 +112,11 @@ const HeaderCenter = ({ toggle, navBar }) => {
               } capitalize hover:text-black`}
             >
               our story
+            </Link>
+          </li>
+          <li>
+            <Link to="/WhoweAre" className="text-main capitalize hover:text-black">
+              we are
             </Link>
           </li>
           <li>
